@@ -1,13 +1,5 @@
 # espruino-ts-quickstart
 
-Quickstart for Espruino using typescript and Visual Studio Code IDE
+Quickstart for Espruino using typescript.
 
-# casc
-
-## steps
-
-- # yarn global add gulp-cli
-- edit app-config.yaml accordingly
-- # gulp build
-- # gulp espruino-console
-- [another terminal] # gulp send-to-espurino-console
+https://www.posttenebraslab.ch/wiki/blog/2018/1102_esp_with_typescript
