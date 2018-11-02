@@ -1,7 +1,7 @@
-import appConfig = require("./app-config");
+const blinkInterval = 500;
 
+let on = false;
 setInterval(() => {
-    const temp = E.getTemperature();
-    console.log("Current temp:", temp);
-}, appConfig.default.refreshPeriodSec * 1000);
-
+  on = !on;
+  digitalWrite(D2, on);
+}, blinkInterval);
